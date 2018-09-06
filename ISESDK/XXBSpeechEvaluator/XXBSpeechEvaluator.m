@@ -8,6 +8,7 @@
 #import "XXBSpeechEvaluator.h"
 #import "iflyMSC/iflyMSC.h"
 #import "ISEResultXmlParser.h"
+#import "ISEResult.h"
 
 NSString* const XXBLanguageZHCN = @"zh_cn";
 NSString* const XXBLanguageENUS = @"en_us";
@@ -20,15 +21,17 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 
 @property (nonatomic, strong) IFlySpeechEvaluator *iFlySpeechEvaluator;
 @property (nonatomic, copy) NSString *resultText;
+@property (nonatomic, assign) BOOL speechParse;
 
 @end
 
 @implementation XXBSpeechEvaluator
 
-- (id)init
+- (id)initWithAppid:(NSString *)appid
 {
     self = [super init];
     if (self) {
+        [IFlySpeechUtility createUtility:[NSString stringWithFormat:@"appid=%@",appid]];
         [self initSpeechEvaluatorSetting];
         [self initSpeechEvaluator];
         [self initSpeechEvaluatorDefaultParameter];
@@ -46,18 +49,14 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 
 - (void)initSpeechEvaluatorSetting
 {
-    NSString *iflyAppid = @"appid";
-
-    [IFlySetting setLogFile:LVL_ALL];
+#ifdef DEBUG
     [IFlySetting showLogcat:YES];
-    
-    //Set the local storage path of SDK
+    [IFlySetting setLogFile:LVL_ALL];
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-    NSString *cachePath = [paths objectAtIndex:0];
-    [IFlySetting setLogFilePath:cachePath];
-    
-    //Configure and initialize iflytek services.(This interface must been invoked in application:didFinishLaunchingWithOptions:)
-    [IFlySpeechUtility createUtility:[NSString stringWithFormat:@"appid=%@",iflyAppid]];
+    [IFlySetting setLogFilePath:paths.firstObject];
+#else
+    [IFlySetting showLogcat:NO];
+#endif
 }
 
 - (void)initSpeechEvaluatorDefaultParameter
@@ -100,7 +99,7 @@ NSString* const XXBCategorySyllable = @"read_syllable";
   
     BOOL ret = [self.iFlySpeechEvaluator startListening:buffer params:nil];
     if (ret) {
-        
+        self.speechParse = NO;
     }
 }
 
@@ -116,9 +115,15 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 
 - (void)speechEvaluatorParse
 {
-    ISEResultXmlParser *parser = [[ISEResultXmlParser alloc] init];
-    parser.delegate = self;
-    [parser parserXml:self.resultText];
+    if (self.resultText.length) {
+        ISEResultXmlParser *parser = [[ISEResultXmlParser alloc] init];
+        parser.delegate = self;
+        [parser parserXml:self.resultText];
+        self.speechParse = YES;
+    }else{
+        NSLog(@"解析文本为空");
+    }
+    
 }
 
 - (void)destroySpeechEvaluator
@@ -138,7 +143,7 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 {
     _languageType = languageType;
     
-    if (languageType == XXBSpeechLanguageTypeZHCN) {
+    if (languageType == XXBSpeechLanguageTypeENUS) {
         [self.iFlySpeechEvaluator setParameter:XXBLanguageENUS forKey:[IFlySpeechConstant LANGUAGE]];
     }else{
         [self.iFlySpeechEvaluator setParameter:XXBLanguageZHCN forKey:[IFlySpeechConstant LANGUAGE]];
@@ -161,7 +166,9 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 // 音量和数据回调
 - (void)onVolumeChanged:(int)volume buffer:(NSData *)buffer
 {
-    
+    if ([self.delegate respondsToSelector:@selector(speechEvaluatorVolume:)]) {
+        [self.delegate speechEvaluatorVolume:volume];
+    }
 }
 
 // 开始录音回调
@@ -173,13 +180,13 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 // 停止录音回调
 - (void)onEndOfSpeech
 {
-    
+
 }
 
 // 正在取消
 - (void)onCancel
 {
-    
+
 }
 
 // 评测错误回调
@@ -188,6 +195,9 @@ NSString* const XXBCategorySyllable = @"read_syllable";
     if(errorCode && errorCode.errorCode!=0){
         NSString *error = [NSString stringWithFormat:@"Error：%d %@",[errorCode errorCode],[errorCode errorDesc]];
         NSLog(@"ERROR-->%@",error);
+        if ([self.delegate respondsToSelector:@selector(speechEvaluatorErrorDesc:)]) {
+            [self.delegate speechEvaluatorErrorDesc:[errorCode errorDesc]];
+        }
     }
 }
 
@@ -206,7 +216,7 @@ NSString* const XXBCategorySyllable = @"read_syllable";
             self.resultText = [[NSString alloc] initWithBytes:chResult length:[results length] encoding:encoding];
         }
         
-        if (isLast) {
+        if (isLast && !self.speechParse) {
             [self speechEvaluatorParse];
         }
         
@@ -219,12 +229,17 @@ NSString* const XXBCategorySyllable = @"read_syllable";
 
 -(void)onISEResultXmlParser:(NSXMLParser *)parser Error:(NSError*)error
 {
-    
+    if ([self.delegate respondsToSelector:@selector(speechEvaluatorErrorDesc:)]) {
+        [self.delegate speechEvaluatorErrorDesc:error.description];
+    }
 }
 
 -(void)onISEResultXmlParserResult:(ISEResult*)result
 {
-    
+    NSLog(@"============= %@",result.except_info);
+    if ([self.delegate respondsToSelector:@selector(speechEvaluatorResult:)]) {
+        [self.delegate speechEvaluatorResult:(result.total_score*20+0.5)];
+    }
 }
 
 @end

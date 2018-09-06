@@ -30,9 +30,12 @@ typedef NS_ENUM(NSInteger, XXBSpeechCategoryType)
 
 @interface XXBSpeechEvaluator : NSObject
 
-@property (nonatomic) XXBSpeechLanguageType languageType;
-@property (nonatomic) XXBSpeechCategoryType categoryType;
-@property (nonatomic, copy) NSString *speechText;
+@property (nonatomic,   weak) id <XXBSpeechEvaluatorDelegate> delegate;
+@property (nonatomic,   copy) NSString *speechText;
+@property (nonatomic, assign) XXBSpeechLanguageType languageType;
+@property (nonatomic, assign) XXBSpeechCategoryType categoryType;
+
+- (id)initWithAppid:(NSString *)appid;
 
 - (void)speechEvaluatorStart; // 开始说话
 - (void)speechEvaluatorStop; // 停止说话
