@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ISESDK"
 
-  s.version      = "0.0.3"
+  s.version      = "0.1.0"
 
   s.summary      = "讯飞SDK评测简单封装(自用)"
 
@@ -18,18 +18,14 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/duxinfeng/ISESDK.git", :tag => "#{s.version}" }
+
+  s.vendored_frameworks = "iflyMSC.framework"
  
-  s.subspec 'XXBSpeechEvaluator' do |ss|
+  s.source_files = '*.{h,m}','ISEResults/*.{h,m}'
 
-		ss.source_files = 'ISESDK/XXBSpeechEvaluator/*.{h,m}'
+  s.subspec 'ISEResults' do |ss|
 
-		ss.vendored_frameworks = "ISESDK/iflyMSC.framework"
-
-		ss.subspec 'ISEResults' do |sss|
-
-			sss.source_files = 'ISESDK/ISEResults/*.{h,m}'
-
-  		end
+    ss.source_files = 'ISEResults/*.{h,m}'
 
   end
 

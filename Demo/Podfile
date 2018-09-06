@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 target 'ISESDKDemo' do
-       pod 'ISESDK', '~> 0.0.2'
+       pod 'ISESDK', '~> 0.0.3'
 end
