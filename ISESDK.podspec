@@ -5,14 +5,14 @@ Pod::Spec.new do |s|
 
   s.name         = "ISESDK"
 
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
 
   s.summary      = "讯飞SDK评测简单封装(自用)"
 
   s.homepage     = "https://github.com/duxinfeng/ISESDK"
 
   s.license      = "MIT"
-  
+
   s.author             = { "Xinfeng Du" => "duxinfeng99@gmail.com" }
 
   s.social_media_url   = "https://github.com/duxinfeng"
