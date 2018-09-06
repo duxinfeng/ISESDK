@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyDataUploader.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyDataUploader.h

@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyResourceUtil.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyResourceUtil.h

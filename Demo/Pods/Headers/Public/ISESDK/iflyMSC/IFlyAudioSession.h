@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyAudioSession.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyAudioSession.h

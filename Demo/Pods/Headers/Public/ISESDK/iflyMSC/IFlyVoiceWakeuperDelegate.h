@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyVoiceWakeuperDelegate.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyVoiceWakeuperDelegate.h

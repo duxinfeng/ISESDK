@@ -1,1 +1,1 @@
-../../../ISESDK/ISESDK/ISEResults/ISEResultWord.h
+../../../ISESDK/ISEResults/ISEResultWord.h

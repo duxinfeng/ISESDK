@@ -1,1 +1,1 @@
-../../../ISESDK/ISESDK/ISEResults/ISEResultReadSentence.h
+../../../ISESDK/ISEResults/ISEResultReadSentence.h

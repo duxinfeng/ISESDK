@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlySpeechConstant.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlySpeechConstant.h

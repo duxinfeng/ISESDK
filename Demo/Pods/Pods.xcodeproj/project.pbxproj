@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B0C7D01B333BDDCCCB7C2C7DD23228F /* ISEResultTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C08CD095DCF105EB5D256602DEEAA1 /* ISEResultTools.m */; };
+		04B7B80C41518FD99592665D5E6E243F /* ISEResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AC212C24D010834DA048BF79794FC2 /* ISEResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E48E4BB38C84D70138A439832D2164B /* ISESDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E08A8D787C42E45FE9E140387FFAB28 /* ISESDK-dummy.m */; };
 		17294A406ADFBABE147097EACC56BD7D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC63A498E7BD61171A95DBCA0884915 /* CoreTelephony.framework */; };
+		18D3CE644A1B52EE99A3F04F764FEB4B /* ISEResultReadSyllable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2831E7524E8D575F919B00E85C44D482 /* ISEResultReadSyllable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BE5BA22BF094EBA0C8391CBF0D2ADF5 /* ISEResultReadSentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7692C757402AC9229569A8A44C218D67 /* ISEResultReadSentence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CB9196F34748620E16568C3A9535256 /* Pods-ISESDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C1723637BBF8345F9095D9303E3F5 /* Pods-ISESDKDemo-dummy.m */; };
-		20102FF88FA328373047C0CEFFA57480 /* ISEResultSyll.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC7674F834B83BBF45251F2066A05 /* ISEResultSyll.m */; };
-		2462EE2831BE7D7C24B367D940F0B38C /* ISEResultWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3DD3D5B10C19C051823BB9BD09AA96 /* ISEResultWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		268C7B38D6022E38D1D7E898CB80E450 /* ISEResultReadSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 633852902B0BE289706E1428937CA469 /* ISEResultReadSentence.m */; };
 		2C304B34050ABEFB424046D818E30D31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EC535C496434EC0A3B2E4354AEC5E3 /* AVFoundation.framework */; };
-		2F4FE91048B0A5D91FB411E0375C4FD4 /* ISEResultSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 1507A3E729CB1EF6A5647F77E0B0D7F3 /* ISEResultSentence.m */; };
-		34E97C11A5B4792DC2B33627E42E3CE0 /* ISEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 15848F0AD2D94286E7AAC3DCFD1C2283 /* ISEResult.m */; };
+		2EF6DCEA37954C0CAC248A241CC4030E /* ISEResultPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6001FEBCE1C75A062EBB9B6F46316E /* ISEResultPhone.m */; };
+		3625840A6DB8D9116617B5E6DF74D210 /* ISEResultSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = D442049421F1E8AAB6B52DB6C4D3FBCE /* ISEResultSentence.m */; };
 		42CEF452E4BC722B7001C06FBD17927A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E076C9414C1D759A51EF03DD786E6F /* CoreGraphics.framework */; };
-		4754D22FED1412494E0B3BCE3CC65A5D /* ISEResultWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5687D75BF92A8140D0D22ED55DC4C847 /* ISEResultWord.m */; };
 		49977A80DE63800F3D8411918306987F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F11D10CB3A3CABBA1148C962AA780D /* SystemConfiguration.framework */; };
-		4B49F1DAD848D94FDF151543AD1FA226 /* ISEResultReadSyllable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA3075BF250399177C6F5A4714EDB96 /* ISEResultReadSyllable.m */; };
-		584F9C861D76CCCC10B5801638FF574A /* ISEResultTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F48D8544DF438CB46EE941DC67891BB /* ISEResultTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58C08E2BB649467DEF576D78B1EFA5B3 /* XXBSpeechEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = B71F54C5D2DB43DC48F44F87EE5F4FBF /* XXBSpeechEvaluator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A0D2A307AC845365F52AD9871C488CE /* ISESDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF6A3B8B9EB4B97729A977CD8022 /* ISESDK-dummy.m */; };
+		4E2E07AA28750454782116437300FB0E /* ISEResultTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3E612A2DE40692288802F60AE1F76 /* ISEResultTools.m */; };
+		510ADFD21BBDC70E68AC9046C3421F6B /* XXBSpeechEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82264C92206909312A09049DA93425B8 /* XXBSpeechEvaluator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		518FF0BFE36858B0D5A50C961F573630 /* ISEResultReadWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C95C421BB6153E9F1FE57A050589243 /* ISEResultReadWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E52CD3CD8013B218444D16AB87D202E /* ISEResultXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 125596D8E5D17D377932AA0F05C6F5CC /* ISEResultXmlParser.m */; };
+		643675BD024DB494EE9A80448A9987D4 /* ISEResultSyll.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB8D1423B7BEA1BE1E21EF15B5A608D /* ISEResultSyll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6934E30DE35AE27FF6747A97513FD90A /* ISEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC3804B753D91D29B32B84A67CBE17B /* ISEResult.m */; };
+		69F4FB294F93D737E1515F13154ECCF5 /* ISEResultXmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B7298588D96ECA268A71EFEAB7F402F4 /* ISEResultXmlParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81B58E122BB5A71BA74130363AADA893 /* ISEResultFinal.h in Headers */ = {isa = PBXBuildFile; fileRef = BD97CFC1A2F182040110B8AF614D7068 /* ISEResultFinal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		84D2E3F37174F6ADE7AED78D70C2E8C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADE76250794BEDBCE71705C6E1E64E /* QuartzCore.framework */; };
-		89F899547FC89204322E6A403EC001ED /* ISEResultFinal.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ABE25437A378A84F97CA8ED950ED1 /* ISEResultFinal.m */; };
+		898FD6FA5A166B2216125DC78099C584 /* ISEResultReadSyllable.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4E35237749636696DB8D0572BFCD /* ISEResultReadSyllable.m */; };
 		8A99C3ACC649F9DC79487AB0F679DA3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC162DC98BFDAD198ED6F339AE6D811 /* AudioToolbox.framework */; };
-		9239D7E66E5DC8133F9D885565A14E09 /* ISEResultReadSyllable.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C04AD258C1208D9FDF694A903AB4F0 /* ISEResultReadSyllable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4D92285927D748BAEE4AAECE744AA4D /* ISEResultReadWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBE1AD87D08538BA6980CB61FD42CD /* ISEResultReadWord.m */; };
-		AFB17211526259A5F1BDD2E494D7C0B8 /* ISEResultXmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BF45F4C43D629CCA922BA021FAD5E034 /* ISEResultXmlParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2A4C67EE6923F0D124321C9D694CC29 /* ISEResultPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 133C51065199F7223027632C2621D2CA /* ISEResultPhone.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA5D98DE56EC38E4FE2CEC238704C432 /* ISEResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9210736A3E3FDB3B2E1BF08024A9917F /* ISEResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB6764FF5D8DDCD0B60C6E338BD05AED /* ISEResultXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D481F24ABB795690BFD68084FECFCFE7 /* ISEResultXmlParser.m */; };
-		D1C1028A816653959B86EF03A94AD1EE /* ISEResultReadSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB7191BF344695D1ED7900EAB84ED1 /* ISEResultReadSentence.m */; };
-		D97E8B946AA1FDB0D3A14199B0F117EF /* ISEResultFinal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEF58CC2B5B713865666CF2C932D60D /* ISEResultFinal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC91D8F99B88C47EC52674A9155872C4 /* ISEResultReadSentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 1397FDF1BEB29A45D1E1C5B2F9DC8D9D /* ISEResultReadSentence.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E33FD51DBCD302D631F7745E1A358A81 /* ISEResultPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46142A58A2437BF57331E7C8CF3BB2 /* ISEResultPhone.m */; };
-		E4505601BD90A2BFF46BCCD057EAE995 /* ISEResultSyll.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B08595E19C7B382198C5493AFE55A35 /* ISEResultSyll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A55D1D48A8EAECA511F0804E61199AE4 /* ISEResultSentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBF69F4167733050CF5CFAE5DA54AA8 /* ISEResultSentence.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A858691F409BE96F0238E4D9CBC6E06F /* ISEResultSyll.m in Sources */ = {isa = PBXBuildFile; fileRef = 315BCCF9B7FD891BC7A8505F9422A563 /* ISEResultSyll.m */; };
+		B4286B9F454384FA83585FA160DB8C98 /* ISEResultWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5FAEC326A0C044D6DA062AAA8A090 /* ISEResultWord.m */; };
+		B54417EEB2B28FBC4D3341C1526839BB /* ISEResultWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 556DBA779B83FF9E38275E26FC05B426 /* ISEResultWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE32D658122C36448184764B2CAF60FB /* XXBSpeechEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CFE505199ED226C310DBD2A3A4F340 /* XXBSpeechEvaluator.m */; };
+		C3C950A8345771EBCA831610B6437AC4 /* ISEResultReadWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D8BE556CB1B233D5E9BB3F601F046A /* ISEResultReadWord.m */; };
+		C5A8563EDF2A08805804A84A341C75A4 /* ISEResultFinal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503D4744E526F150872B2416AC5186 /* ISEResultFinal.m */; };
+		DB15A471D7DCF542ADEDA29BB52CA717 /* ISEResultTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81BD412381B2FFADDE14E2D1E169F1 /* ISEResultTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC895B5D6E88963D03D817A84310754C /* ISEResultPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CBA3F3EB07F12FB5FF68A8876DD8BD2 /* ISEResultPhone.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1C13E39ED86B8A055CFF0F0F99B274F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EE9DA4E58F6E3588520EDFDCFD3F66 /* CoreLocation.framework */; };
-		F6CB1B4DB5F070B9FBDB90A39932A782 /* XXBSpeechEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2347AA937D89D88CBFB7EFE190865FB /* XXBSpeechEvaluator.m */; };
-		FEC194E66A02A67923C8490C13643041 /* ISEResultReadWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB0F0FD3454B7BB3175E2D183846F97 /* ISEResultReadWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FF32B443B78D1D6D26F81F0F71563D83 /* ISEResultSentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 78927F0861E2C3EA9EE123C6563ADFAC /* ISEResultSentence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,48 +53,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D8BE556CB1B233D5E9BB3F601F046A /* ISEResultReadWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadWord.m; path = ISEResults/ISEResultReadWord.m; sourceTree = "<group>"; };
 		01F1C5A79D0CDE6E60E76E9FB851237F /* Pods-ISESDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISESDKDemo-resources.sh"; sourceTree = "<group>"; };
 		0298636BEB22DBEC5C0B8C361A34BA84 /* Pods-ISESDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISESDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		113B213C87E2FF18DB6D69A153E29F8E /* ISESDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISESDK.xcconfig; sourceTree = "<group>"; };
-		133C51065199F7223027632C2621D2CA /* ISEResultPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultPhone.h; path = ISESDK/ISEResults/ISEResultPhone.h; sourceTree = "<group>"; };
-		1397FDF1BEB29A45D1E1C5B2F9DC8D9D /* ISEResultReadSentence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadSentence.h; path = ISESDK/ISEResults/ISEResultReadSentence.h; sourceTree = "<group>"; };
-		1507A3E729CB1EF6A5647F77E0B0D7F3 /* ISEResultSentence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultSentence.m; path = ISESDK/ISEResults/ISEResultSentence.m; sourceTree = "<group>"; };
-		15848F0AD2D94286E7AAC3DCFD1C2283 /* ISEResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResult.m; path = ISESDK/ISEResults/ISEResult.m; sourceTree = "<group>"; };
-		15AB7191BF344695D1ED7900EAB84ED1 /* ISEResultReadSentence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadSentence.m; path = ISESDK/ISEResults/ISEResultReadSentence.m; sourceTree = "<group>"; };
+		125596D8E5D17D377932AA0F05C6F5CC /* ISEResultXmlParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultXmlParser.m; path = ISEResults/ISEResultXmlParser.m; sourceTree = "<group>"; };
+		1CBA3F3EB07F12FB5FF68A8876DD8BD2 /* ISEResultPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultPhone.h; path = ISEResults/ISEResultPhone.h; sourceTree = "<group>"; };
+		2831E7524E8D575F919B00E85C44D482 /* ISEResultReadSyllable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadSyllable.h; path = ISEResults/ISEResultReadSyllable.h; sourceTree = "<group>"; };
 		2990B01A4A2ADF523339F1C07B225C8A /* Pods-ISESDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISESDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		2A4C1723637BBF8345F9095D9303E3F5 /* Pods-ISESDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISESDKDemo-dummy.m"; sourceTree = "<group>"; };
-		2DA3075BF250399177C6F5A4714EDB96 /* ISEResultReadSyllable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadSyllable.m; path = ISESDK/ISEResults/ISEResultReadSyllable.m; sourceTree = "<group>"; };
-		36C08CD095DCF105EB5D256602DEEAA1 /* ISEResultTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultTools.m; path = ISESDK/ISEResults/ISEResultTools.m; sourceTree = "<group>"; };
+		2E08A8D787C42E45FE9E140387FFAB28 /* ISESDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISESDK-dummy.m"; sourceTree = "<group>"; };
+		2EBF69F4167733050CF5CFAE5DA54AA8 /* ISEResultSentence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultSentence.h; path = ISEResults/ISEResultSentence.h; sourceTree = "<group>"; };
+		315BCCF9B7FD891BC7A8505F9422A563 /* ISEResultSyll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultSyll.m; path = ISEResults/ISEResultSyll.m; sourceTree = "<group>"; };
 		3EF045BE1BDCCA3EA8B1E9AB7B207B50 /* libPods-ISESDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ISESDKDemo.a"; path = "libPods-ISESDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E076C9414C1D759A51EF03DD786E6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4B81BD412381B2FFADDE14E2D1E169F1 /* ISEResultTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultTools.h; path = ISEResults/ISEResultTools.h; sourceTree = "<group>"; };
 		4BC162DC98BFDAD198ED6F339AE6D811 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		4DB0F0FD3454B7BB3175E2D183846F97 /* ISEResultReadWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadWord.h; path = ISESDK/ISEResults/ISEResultReadWord.h; sourceTree = "<group>"; };
-		5687D75BF92A8140D0D22ED55DC4C847 /* ISEResultWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultWord.m; path = ISESDK/ISEResults/ISEResultWord.m; sourceTree = "<group>"; };
-		5AFBE1AD87D08538BA6980CB61FD42CD /* ISEResultReadWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadWord.m; path = ISESDK/ISEResults/ISEResultReadWord.m; sourceTree = "<group>"; };
+		4C503D4744E526F150872B2416AC5186 /* ISEResultFinal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultFinal.m; path = ISEResults/ISEResultFinal.m; sourceTree = "<group>"; };
+		556DBA779B83FF9E38275E26FC05B426 /* ISEResultWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultWord.h; path = ISEResults/ISEResultWord.h; sourceTree = "<group>"; };
 		5B07F4E1383CB3E926B3AAA3125EC2FA /* Pods-ISESDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISESDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		645C5513B1652DA0BDF9CFBBB2F8E42D /* ISESDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISESDK-prefix.pch"; sourceTree = "<group>"; };
-		64C04AD258C1208D9FDF694A903AB4F0 /* ISEResultReadSyllable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadSyllable.h; path = ISESDK/ISEResults/ISEResultReadSyllable.h; sourceTree = "<group>"; };
-		6F46142A58A2437BF57331E7C8CF3BB2 /* ISEResultPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultPhone.m; path = ISESDK/ISEResults/ISEResultPhone.m; sourceTree = "<group>"; };
-		78927F0861E2C3EA9EE123C6563ADFAC /* ISEResultSentence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultSentence.h; path = ISESDK/ISEResults/ISEResultSentence.h; sourceTree = "<group>"; };
-		7996CF6A3B8B9EB4B97729A977CD8022 /* ISESDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISESDK-dummy.m"; sourceTree = "<group>"; };
-		79EEC7674F834B83BBF45251F2066A05 /* ISEResultSyll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultSyll.m; path = ISESDK/ISEResults/ISEResultSyll.m; sourceTree = "<group>"; };
+		633852902B0BE289706E1428937CA469 /* ISEResultReadSentence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadSentence.m; path = ISEResults/ISEResultReadSentence.m; sourceTree = "<group>"; };
+		765424B2C537B6425327E0426CC08AA1 /* ISESDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISESDK-prefix.pch"; sourceTree = "<group>"; };
+		7692C757402AC9229569A8A44C218D67 /* ISEResultReadSentence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadSentence.h; path = ISEResults/ISEResultReadSentence.h; sourceTree = "<group>"; };
+		78B421E2B1DB2F1A2AE65828EB476095 /* ISESDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISESDK.xcconfig; sourceTree = "<group>"; };
+		7BF5FAEC326A0C044D6DA062AAA8A090 /* ISEResultWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultWord.m; path = ISEResults/ISEResultWord.m; sourceTree = "<group>"; };
 		7D175336D2AA80129C10BB3DDE245892 /* libISESDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISESDK.a; path = libISESDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EEF58CC2B5B713865666CF2C932D60D /* ISEResultFinal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultFinal.h; path = ISESDK/ISEResults/ISEResultFinal.h; sourceTree = "<group>"; };
-		7F48D8544DF438CB46EE941DC67891BB /* ISEResultTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultTools.h; path = ISESDK/ISEResults/ISEResultTools.h; sourceTree = "<group>"; };
-		8B08595E19C7B382198C5493AFE55A35 /* ISEResultSyll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultSyll.h; path = ISESDK/ISEResults/ISEResultSyll.h; sourceTree = "<group>"; };
-		9210736A3E3FDB3B2E1BF08024A9917F /* ISEResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResult.h; path = ISESDK/ISEResults/ISEResult.h; sourceTree = "<group>"; };
+		82264C92206909312A09049DA93425B8 /* XXBSpeechEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXBSpeechEvaluator.h; sourceTree = "<group>"; };
 		92EE9DA4E58F6E3588520EDFDCFD3F66 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B3DD3D5B10C19C051823BB9BD09AA96 /* ISEResultWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultWord.h; path = ISESDK/ISEResults/ISEResultWord.h; sourceTree = "<group>"; };
-		B2347AA937D89D88CBFB7EFE190865FB /* XXBSpeechEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXBSpeechEvaluator.m; path = ISESDK/XXBSpeechEvaluator/XXBSpeechEvaluator.m; sourceTree = "<group>"; };
+		93D3E612A2DE40692288802F60AE1F76 /* ISEResultTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultTools.m; path = ISEResults/ISEResultTools.m; sourceTree = "<group>"; };
+		9C95C421BB6153E9F1FE57A050589243 /* ISEResultReadWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadWord.h; path = ISEResults/ISEResultReadWord.h; sourceTree = "<group>"; };
+		B1CFE505199ED226C310DBD2A3A4F340 /* XXBSpeechEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXBSpeechEvaluator.m; sourceTree = "<group>"; };
 		B5ADE76250794BEDBCE71705C6E1E64E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B71F54C5D2DB43DC48F44F87EE5F4FBF /* XXBSpeechEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXBSpeechEvaluator.h; path = ISESDK/XXBSpeechEvaluator/XXBSpeechEvaluator.h; sourceTree = "<group>"; };
-		BF45F4C43D629CCA922BA021FAD5E034 /* ISEResultXmlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultXmlParser.h; path = ISESDK/ISEResults/ISEResultXmlParser.h; sourceTree = "<group>"; };
+		B7298588D96ECA268A71EFEAB7F402F4 /* ISEResultXmlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultXmlParser.h; path = ISEResults/ISEResultXmlParser.h; sourceTree = "<group>"; };
+		BAC3804B753D91D29B32B84A67CBE17B /* ISEResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResult.m; path = ISEResults/ISEResult.m; sourceTree = "<group>"; };
+		BADDF5A42384BAB60192ABD4CE83DF3B /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		BB7D4E35237749636696DB8D0572BFCD /* ISEResultReadSyllable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadSyllable.m; path = ISEResults/ISEResultReadSyllable.m; sourceTree = "<group>"; };
+		BD6001FEBCE1C75A062EBB9B6F46316E /* ISEResultPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultPhone.m; path = ISEResults/ISEResultPhone.m; sourceTree = "<group>"; };
+		BD97CFC1A2F182040110B8AF614D7068 /* ISEResultFinal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultFinal.h; path = ISEResults/ISEResultFinal.h; sourceTree = "<group>"; };
 		C383393E96426CBC545005C0248C3B34 /* Pods-ISESDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISESDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D481F24ABB795690BFD68084FECFCFE7 /* ISEResultXmlParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultXmlParser.m; path = ISESDK/ISEResults/ISEResultXmlParser.m; sourceTree = "<group>"; };
+		D442049421F1E8AAB6B52DB6C4D3FBCE /* ISEResultSentence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultSentence.m; path = ISEResults/ISEResultSentence.m; sourceTree = "<group>"; };
 		D5629261D7899A2D115F9F48F3594F7D /* Pods-ISESDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISESDKDemo-frameworks.sh"; sourceTree = "<group>"; };
-		D60ABE25437A378A84F97CA8ED950ED1 /* ISEResultFinal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultFinal.m; path = ISESDK/ISEResults/ISEResultFinal.m; sourceTree = "<group>"; };
-		DE7B09BFCC0BD22C5F67200618467250 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ISESDK/iflyMSC.framework; sourceTree = "<group>"; };
+		DEB8D1423B7BEA1BE1E21EF15B5A608D /* ISEResultSyll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultSyll.h; path = ISEResults/ISEResultSyll.h; sourceTree = "<group>"; };
+		E7AC212C24D010834DA048BF79794FC2 /* ISEResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResult.h; path = ISEResults/ISEResult.h; sourceTree = "<group>"; };
 		E9EC535C496434EC0A3B2E4354AEC5E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		EFC63A498E7BD61171A95DBCA0884915 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		F1F11D10CB3A3CABBA1148C962AA780D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -125,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2A1D4228ACED6324C87542E5FD31B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADDF5A42384BAB60192ABD4CE83DF3B /* iflyMSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3671B2E6ED7DDA17ACDD456DE6C32740 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,25 +156,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4D41CD6973B1B72941DAED169A82B64A /* XXBSpeechEvaluator */ = {
+		5A232360340484E4A6D1B3EA30F1669A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B71F54C5D2DB43DC48F44F87EE5F4FBF /* XXBSpeechEvaluator.h */,
-				B2347AA937D89D88CBFB7EFE190865FB /* XXBSpeechEvaluator.m */,
-				D4FCEF2530FAFB832DA8E94B19BC5513 /* Frameworks */,
-				83CCFC5DE49D32874B76C4C16FAC93D6 /* ISEResults */,
+				881244A955FA47EB53C36DDF00A72349 /* ISESDK */,
 			);
-			name = XXBSpeechEvaluator;
-			sourceTree = "<group>";
-		};
-		78FB4B1FE8BD21F6AC0ECEE9E4808E34 /* ISESDK */ = {
-			isa = PBXGroup;
-			children = (
-				BD16895DED464429B3ADD4DBCEAFC72D /* Support Files */,
-				4D41CD6973B1B72941DAED169A82B64A /* XXBSpeechEvaluator */,
-			);
-			name = ISESDK;
-			path = ISESDK;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -174,39 +169,52 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
-				C7A27071EC2C7894BA37A3ADD1D6F3AF /* Pods */,
+				5A232360340484E4A6D1B3EA30F1669A /* Pods */,
 				3671B2E6ED7DDA17ACDD456DE6C32740 /* Products */,
 				D383B831C231C893DA3CD810EC44643E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83CCFC5DE49D32874B76C4C16FAC93D6 /* ISEResults */ = {
+		8346D58473A4B447707E98FA7F1496C7 /* ISEResults */ = {
 			isa = PBXGroup;
 			children = (
-				9210736A3E3FDB3B2E1BF08024A9917F /* ISEResult.h */,
-				15848F0AD2D94286E7AAC3DCFD1C2283 /* ISEResult.m */,
-				7EEF58CC2B5B713865666CF2C932D60D /* ISEResultFinal.h */,
-				D60ABE25437A378A84F97CA8ED950ED1 /* ISEResultFinal.m */,
-				133C51065199F7223027632C2621D2CA /* ISEResultPhone.h */,
-				6F46142A58A2437BF57331E7C8CF3BB2 /* ISEResultPhone.m */,
-				1397FDF1BEB29A45D1E1C5B2F9DC8D9D /* ISEResultReadSentence.h */,
-				15AB7191BF344695D1ED7900EAB84ED1 /* ISEResultReadSentence.m */,
-				64C04AD258C1208D9FDF694A903AB4F0 /* ISEResultReadSyllable.h */,
-				2DA3075BF250399177C6F5A4714EDB96 /* ISEResultReadSyllable.m */,
-				4DB0F0FD3454B7BB3175E2D183846F97 /* ISEResultReadWord.h */,
-				5AFBE1AD87D08538BA6980CB61FD42CD /* ISEResultReadWord.m */,
-				78927F0861E2C3EA9EE123C6563ADFAC /* ISEResultSentence.h */,
-				1507A3E729CB1EF6A5647F77E0B0D7F3 /* ISEResultSentence.m */,
-				8B08595E19C7B382198C5493AFE55A35 /* ISEResultSyll.h */,
-				79EEC7674F834B83BBF45251F2066A05 /* ISEResultSyll.m */,
-				7F48D8544DF438CB46EE941DC67891BB /* ISEResultTools.h */,
-				36C08CD095DCF105EB5D256602DEEAA1 /* ISEResultTools.m */,
-				9B3DD3D5B10C19C051823BB9BD09AA96 /* ISEResultWord.h */,
-				5687D75BF92A8140D0D22ED55DC4C847 /* ISEResultWord.m */,
-				BF45F4C43D629CCA922BA021FAD5E034 /* ISEResultXmlParser.h */,
-				D481F24ABB795690BFD68084FECFCFE7 /* ISEResultXmlParser.m */,
 			);
 			name = ISEResults;
+			sourceTree = "<group>";
+		};
+		881244A955FA47EB53C36DDF00A72349 /* ISESDK */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC212C24D010834DA048BF79794FC2 /* ISEResult.h */,
+				BAC3804B753D91D29B32B84A67CBE17B /* ISEResult.m */,
+				BD97CFC1A2F182040110B8AF614D7068 /* ISEResultFinal.h */,
+				4C503D4744E526F150872B2416AC5186 /* ISEResultFinal.m */,
+				1CBA3F3EB07F12FB5FF68A8876DD8BD2 /* ISEResultPhone.h */,
+				BD6001FEBCE1C75A062EBB9B6F46316E /* ISEResultPhone.m */,
+				7692C757402AC9229569A8A44C218D67 /* ISEResultReadSentence.h */,
+				633852902B0BE289706E1428937CA469 /* ISEResultReadSentence.m */,
+				2831E7524E8D575F919B00E85C44D482 /* ISEResultReadSyllable.h */,
+				BB7D4E35237749636696DB8D0572BFCD /* ISEResultReadSyllable.m */,
+				9C95C421BB6153E9F1FE57A050589243 /* ISEResultReadWord.h */,
+				01D8BE556CB1B233D5E9BB3F601F046A /* ISEResultReadWord.m */,
+				2EBF69F4167733050CF5CFAE5DA54AA8 /* ISEResultSentence.h */,
+				D442049421F1E8AAB6B52DB6C4D3FBCE /* ISEResultSentence.m */,
+				DEB8D1423B7BEA1BE1E21EF15B5A608D /* ISEResultSyll.h */,
+				315BCCF9B7FD891BC7A8505F9422A563 /* ISEResultSyll.m */,
+				4B81BD412381B2FFADDE14E2D1E169F1 /* ISEResultTools.h */,
+				93D3E612A2DE40692288802F60AE1F76 /* ISEResultTools.m */,
+				556DBA779B83FF9E38275E26FC05B426 /* ISEResultWord.h */,
+				7BF5FAEC326A0C044D6DA062AAA8A090 /* ISEResultWord.m */,
+				B7298588D96ECA268A71EFEAB7F402F4 /* ISEResultXmlParser.h */,
+				125596D8E5D17D377932AA0F05C6F5CC /* ISEResultXmlParser.m */,
+				82264C92206909312A09049DA93425B8 /* XXBSpeechEvaluator.h */,
+				B1CFE505199ED226C310DBD2A3A4F340 /* XXBSpeechEvaluator.m */,
+				2D2A1D4228ACED6324C87542E5FD31B7 /* Frameworks */,
+				8346D58473A4B447707E98FA7F1496C7 /* ISEResults */,
+				C156EDC85C0E74E56FB012F4429E652C /* Support Files */,
+			);
+			name = ISESDK;
+			path = ISESDK;
 			sourceTree = "<group>";
 		};
 		98C93DE8BBEFF526711D500259B6E9C8 /* Pods-ISESDKDemo */ = {
@@ -224,23 +232,15 @@
 			path = "Target Support Files/Pods-ISESDKDemo";
 			sourceTree = "<group>";
 		};
-		BD16895DED464429B3ADD4DBCEAFC72D /* Support Files */ = {
+		C156EDC85C0E74E56FB012F4429E652C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				113B213C87E2FF18DB6D69A153E29F8E /* ISESDK.xcconfig */,
-				7996CF6A3B8B9EB4B97729A977CD8022 /* ISESDK-dummy.m */,
-				645C5513B1652DA0BDF9CFBBB2F8E42D /* ISESDK-prefix.pch */,
+				78B421E2B1DB2F1A2AE65828EB476095 /* ISESDK.xcconfig */,
+				2E08A8D787C42E45FE9E140387FFAB28 /* ISESDK-dummy.m */,
+				765424B2C537B6425327E0426CC08AA1 /* ISESDK-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ISESDK";
-			sourceTree = "<group>";
-		};
-		C7A27071EC2C7894BA37A3ADD1D6F3AF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				78FB4B1FE8BD21F6AC0ECEE9E4808E34 /* ISESDK */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D383B831C231C893DA3CD810EC44643E /* Targets Support Files */ = {
@@ -249,14 +249,6 @@
 				98C93DE8BBEFF526711D500259B6E9C8 /* Pods-ISESDKDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D4FCEF2530FAFB832DA8E94B19BC5513 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DE7B09BFCC0BD22C5F67200618467250 /* iflyMSC.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
@@ -270,22 +262,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FA8AF6BA246080D7BAEF2CD63E1F553F /* Headers */ = {
+		559F0B4567E7095DA6FAA4DA931EE76C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5D98DE56EC38E4FE2CEC238704C432 /* ISEResult.h in Headers */,
-				D97E8B946AA1FDB0D3A14199B0F117EF /* ISEResultFinal.h in Headers */,
-				B2A4C67EE6923F0D124321C9D694CC29 /* ISEResultPhone.h in Headers */,
-				DC91D8F99B88C47EC52674A9155872C4 /* ISEResultReadSentence.h in Headers */,
-				9239D7E66E5DC8133F9D885565A14E09 /* ISEResultReadSyllable.h in Headers */,
-				FEC194E66A02A67923C8490C13643041 /* ISEResultReadWord.h in Headers */,
-				FF32B443B78D1D6D26F81F0F71563D83 /* ISEResultSentence.h in Headers */,
-				E4505601BD90A2BFF46BCCD057EAE995 /* ISEResultSyll.h in Headers */,
-				584F9C861D76CCCC10B5801638FF574A /* ISEResultTools.h in Headers */,
-				2462EE2831BE7D7C24B367D940F0B38C /* ISEResultWord.h in Headers */,
-				AFB17211526259A5F1BDD2E494D7C0B8 /* ISEResultXmlParser.h in Headers */,
-				58C08E2BB649467DEF576D78B1EFA5B3 /* XXBSpeechEvaluator.h in Headers */,
+				04B7B80C41518FD99592665D5E6E243F /* ISEResult.h in Headers */,
+				81B58E122BB5A71BA74130363AADA893 /* ISEResultFinal.h in Headers */,
+				EC895B5D6E88963D03D817A84310754C /* ISEResultPhone.h in Headers */,
+				1BE5BA22BF094EBA0C8391CBF0D2ADF5 /* ISEResultReadSentence.h in Headers */,
+				18D3CE644A1B52EE99A3F04F764FEB4B /* ISEResultReadSyllable.h in Headers */,
+				518FF0BFE36858B0D5A50C961F573630 /* ISEResultReadWord.h in Headers */,
+				A55D1D48A8EAECA511F0804E61199AE4 /* ISEResultSentence.h in Headers */,
+				643675BD024DB494EE9A80448A9987D4 /* ISEResultSyll.h in Headers */,
+				DB15A471D7DCF542ADEDA29BB52CA717 /* ISEResultTools.h in Headers */,
+				B54417EEB2B28FBC4D3341C1526839BB /* ISEResultWord.h in Headers */,
+				69F4FB294F93D737E1515F13154ECCF5 /* ISEResultXmlParser.h in Headers */,
+				510ADFD21BBDC70E68AC9046C3421F6B /* XXBSpeechEvaluator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,9 +305,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C261C84F16633FC87D6CB45C4EFBDAB4 /* Build configuration list for PBXNativeTarget "ISESDK" */;
 			buildPhases = (
-				FB27450919E44AB5338C36371F00D998 /* Sources */,
+				3C6BFBFD30861555D94EC0EF822B88D3 /* Sources */,
 				DFEFEDBCB07B62EB78546B1549895DEE /* Frameworks */,
-				FA8AF6BA246080D7BAEF2CD63E1F553F /* Headers */,
+				559F0B4567E7095DA6FAA4DA931EE76C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -354,31 +346,31 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3C6BFBFD30861555D94EC0EF822B88D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6934E30DE35AE27FF6747A97513FD90A /* ISEResult.m in Sources */,
+				C5A8563EDF2A08805804A84A341C75A4 /* ISEResultFinal.m in Sources */,
+				2EF6DCEA37954C0CAC248A241CC4030E /* ISEResultPhone.m in Sources */,
+				268C7B38D6022E38D1D7E898CB80E450 /* ISEResultReadSentence.m in Sources */,
+				898FD6FA5A166B2216125DC78099C584 /* ISEResultReadSyllable.m in Sources */,
+				C3C950A8345771EBCA831610B6437AC4 /* ISEResultReadWord.m in Sources */,
+				3625840A6DB8D9116617B5E6DF74D210 /* ISEResultSentence.m in Sources */,
+				A858691F409BE96F0238E4D9CBC6E06F /* ISEResultSyll.m in Sources */,
+				4E2E07AA28750454782116437300FB0E /* ISEResultTools.m in Sources */,
+				B4286B9F454384FA83585FA160DB8C98 /* ISEResultWord.m in Sources */,
+				5E52CD3CD8013B218444D16AB87D202E /* ISEResultXmlParser.m in Sources */,
+				0E48E4BB38C84D70138A439832D2164B /* ISESDK-dummy.m in Sources */,
+				BE32D658122C36448184764B2CAF60FB /* XXBSpeechEvaluator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0FD3C006F4CA97F5887E2B3A1990EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CB9196F34748620E16568C3A9535256 /* Pods-ISESDKDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB27450919E44AB5338C36371F00D998 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34E97C11A5B4792DC2B33627E42E3CE0 /* ISEResult.m in Sources */,
-				89F899547FC89204322E6A403EC001ED /* ISEResultFinal.m in Sources */,
-				E33FD51DBCD302D631F7745E1A358A81 /* ISEResultPhone.m in Sources */,
-				D1C1028A816653959B86EF03A94AD1EE /* ISEResultReadSentence.m in Sources */,
-				4B49F1DAD848D94FDF151543AD1FA226 /* ISEResultReadSyllable.m in Sources */,
-				A4D92285927D748BAEE4AAECE744AA4D /* ISEResultReadWord.m in Sources */,
-				2F4FE91048B0A5D91FB411E0375C4FD4 /* ISEResultSentence.m in Sources */,
-				20102FF88FA328373047C0CEFFA57480 /* ISEResultSyll.m in Sources */,
-				0B0C7D01B333BDDCCCB7C2C7DD23228F /* ISEResultTools.m in Sources */,
-				4754D22FED1412494E0B3BCE3CC65A5D /* ISEResultWord.m in Sources */,
-				CB6764FF5D8DDCD0B60C6E338BD05AED /* ISEResultXmlParser.m in Sources */,
-				5A0D2A307AC845365F52AD9871C488CE /* ISESDK-dummy.m in Sources */,
-				F6CB1B4DB5F070B9FBDB90A39932A782 /* XXBSpeechEvaluator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +472,7 @@
 		};
 		6904ED4F2B87D2426A88EC0DABB0722F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 113B213C87E2FF18DB6D69A153E29F8E /* ISESDK.xcconfig */;
+			baseConfigurationReference = 78B421E2B1DB2F1A2AE65828EB476095 /* ISESDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -526,7 +518,7 @@
 		};
 		B1509C77A3140DE01256DA832047DDD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 113B213C87E2FF18DB6D69A153E29F8E /* ISESDK.xcconfig */;
+			baseConfigurationReference = 78B421E2B1DB2F1A2AE65828EB476095 /* ISESDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

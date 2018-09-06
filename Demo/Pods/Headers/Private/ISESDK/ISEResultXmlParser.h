@@ -1,1 +1,1 @@
-../../../ISESDK/ISESDK/ISEResults/ISEResultXmlParser.h
+../../../ISESDK/ISEResults/ISEResultXmlParser.h

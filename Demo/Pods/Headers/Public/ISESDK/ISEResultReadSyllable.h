@@ -1,1 +1,1 @@
-../../../ISESDK/ISESDK/ISEResults/ISEResultReadSyllable.h
+../../../ISESDK/ISEResults/ISEResultReadSyllable.h

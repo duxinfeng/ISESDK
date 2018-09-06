@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyPcmRecorder.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyPcmRecorder.h

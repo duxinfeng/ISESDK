@@ -1,20 +1,18 @@
 PODS:
-  - ISESDK (0.0.3):
-    - ISESDK/XXBSpeechEvaluator (= 0.0.3)
-  - ISESDK/XXBSpeechEvaluator (0.0.3):
-    - ISESDK/XXBSpeechEvaluator/ISEResults (= 0.0.3)
-  - ISESDK/XXBSpeechEvaluator/ISEResults (0.0.3)
+  - ISESDK (0.1.0):
+    - ISESDK/ISEResults (= 0.1.0)
+  - ISESDK/ISEResults (0.1.0)
 
 DEPENDENCIES:
-  - ISESDK (~> 0.0.3)
+  - ISESDK (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ISESDK
 
 SPEC CHECKSUMS:
-  ISESDK: 8a32c6e4f04a0e07414afc2cdb3dc3e6653ac0f6
+  ISESDK: c7f102d6ac2b13aecff7e504687557311fbcd85a
 
-PODFILE CHECKSUM: a1f1aaddaad4118263359bc7fc9362bd05a73624
+PODFILE CHECKSUM: 69ce5b74ad7032bd7dc5de0cccd8c80fedddc7bb
 
 COCOAPODS: 1.5.3

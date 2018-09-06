@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyUserWords.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlyUserWords.h

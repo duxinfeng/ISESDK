@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h

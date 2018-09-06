@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ISESDK"
 
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
 
   s.summary      = "讯飞SDK评测简单封装(自用)"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "iflyMSC.framework"
  
-  s.source_files = '*.{h,m}','ISEResults/*.{h,m}'
+  s.source_files = '*.{h,m}'
 
   s.subspec 'ISEResults' do |ss|
 

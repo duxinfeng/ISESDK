@@ -1,1 +1,1 @@
-../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlySpeechError.h
+../../../../ISESDK/iflyMSC.framework/Headers/IFlySpeechError.h

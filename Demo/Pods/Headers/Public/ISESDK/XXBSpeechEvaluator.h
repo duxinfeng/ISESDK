@@ -1,1 +1,1 @@
-../../../ISESDK/ISESDK/XXBSpeechEvaluator/XXBSpeechEvaluator.h
+../../../ISESDK/XXBSpeechEvaluator.h
