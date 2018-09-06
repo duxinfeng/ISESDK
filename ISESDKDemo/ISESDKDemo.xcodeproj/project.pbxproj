@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1A9BA2C1B5F13A8552FCF6 /* libPods-ISESDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57295A3EEF674F872DBAF28 /* libPods-ISESDKDemo.a */; };
 		B2670463213FA9A2006BBE26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2670462213FA9A2006BBE26 /* AppDelegate.m */; };
 		B2670466213FA9A2006BBE26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2670465213FA9A2006BBE26 /* ViewController.m */; };
 		B2670469213FA9A2006BBE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2670467213FA9A2006BBE26 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D7805394F6946EA8DA2A9F9 /* Pods-ISESDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISESDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISESDKDemo/Pods-ISESDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B267045E213FA9A2006BBE26 /* ISESDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISESDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2670461213FA9A2006BBE26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2670462213FA9A2006BBE26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		B2670481213FA9A3006BBE26 /* ISESDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISESDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2670485213FA9A3006BBE26 /* ISESDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISESDKDemoUITests.m; sourceTree = "<group>"; };
 		B2670487213FA9A4006BBE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57295A3EEF674F872DBAF28 /* libPods-ISESDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISESDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB7BEAF590D79ED006AF60 /* Pods-ISESDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISESDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISESDKDemo/Pods-ISESDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1A9BA2C1B5F13A8552FCF6 /* libPods-ISESDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469920E28619DBE81CACEE70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB7BEAF590D79ED006AF60 /* Pods-ISESDKDemo.debug.xcconfig */,
+				7D7805394F6946EA8DA2A9F9 /* Pods-ISESDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B2670455213FA9A2006BBE26 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				B2670479213FA9A3006BBE26 /* ISESDKDemoTests */,
 				B2670484213FA9A3006BBE26 /* ISESDKDemoUITests */,
 				B267045F213FA9A2006BBE26 /* Products */,
+				469920E28619DBE81CACEE70 /* Pods */,
+				B8D21C2AFC2BFDFF67B0C91D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +148,14 @@
 			path = ISESDKDemoUITests;
 			sourceTree = "<group>";
 		};
+		B8D21C2AFC2BFDFF67B0C91D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57295A3EEF674F872DBAF28 /* libPods-ISESDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B267048A213FA9A4006BBE26 /* Build configuration list for PBXNativeTarget "ISESDKDemo" */;
 			buildPhases = (
+				69DD53EAF24FEEDA4C8FB284 /* [CP] Check Pods Manifest.lock */,
 				B267045A213FA9A2006BBE26 /* Sources */,
 				B267045B213FA9A2006BBE26 /* Frameworks */,
 				B267045C213FA9A2006BBE26 /* Resources */,
@@ -256,6 +281,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69DD53EAF24FEEDA4C8FB284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISESDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B267045A213FA9A2006BBE26 /* Sources */ = {
@@ -431,11 +477,14 @@
 		};
 		B267048B213FA9A4006BBE26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAB7BEAF590D79ED006AF60 /* Pods-ISESDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DW3XNUJESZ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ISESDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +497,14 @@
 		};
 		B267048C213FA9A4006BBE26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7805394F6946EA8DA2A9F9 /* Pods-ISESDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DW3XNUJESZ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ISESDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

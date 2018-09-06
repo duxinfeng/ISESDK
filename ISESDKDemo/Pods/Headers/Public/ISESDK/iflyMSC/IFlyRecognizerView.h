@@ -1,0 +1,1 @@
+../../../../ISESDK/ISESDK/iflyMSC.framework/Headers/IFlyRecognizerView.h

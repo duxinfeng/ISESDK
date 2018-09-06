@@ -1,0 +1,16 @@
+PODS:
+  - ISESDK (0.0.1)
+
+DEPENDENCIES:
+  - ISESDK (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ISESDK
+
+SPEC CHECKSUMS:
+  ISESDK: 61aa26887c84f38f40b66ee1d824c8e16abbd024
+
+PODFILE CHECKSUM: 1be955539987cb63100ffe03ef4763a080070fc8
+
+COCOAPODS: 1.5.3
